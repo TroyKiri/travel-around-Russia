@@ -1,0 +1,14 @@
+.intro__description {
+    margin-top: 24px;
+    margin-bottom: 0;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 767px) {
+    .intro__description {
+        margin-top: 32px;
+    }
+}

@@ -1,0 +1,174 @@
+@import url('../vendor/normalize.css');
+@import url('../blocks/header/header.css');
+@import url('../blocks/lead/lead.css');
+@import url('../blocks/intro/intro.css');
+@import url('../blocks/photo-grid/photo-grid.css');
+@import url('../blocks/places/places.css');
+@import url('../blocks/place/place.css');
+@import url('../blocks/content-title/content-title.css');
+@import url('../blocks/content-subtitle/content-subtitle.css');
+@import url('../blocks/video/video.css');
+@import url('../blocks/comments/comments.css');
+@import url('../blocks/comment/comment.css');
+@import url('../blocks/cover/cover.css');
+@import url('../blocks/footer/footer.css');
+
+@font-face {
+    src:url(../fonts/Inter-Regular.woff) format('woff'),
+        url(../fonts/Inter-Regular.woff2) format('woff2'),
+        url(../fonts/Inter-Regular.ttf) format('truetype');
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    src:url(../fonts/Inter-Medium.woff) format('woff'),
+        url(../fonts/Inter-Medium.woff2) format('woff2'),
+        url(../fonts/Inter-Medium.ttf) format('truetype');
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+}
+@font-face {
+    src:url(../fonts/Inter-Black.woff) format('woff'),
+        url(../fonts/Inter-Black.woff2) format('woff2'),
+        url(../fonts/Inter-Black.ttf) format('truetype');
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+}
+@font-face {
+    src:url(../fonts/Inter-Bold.woff) format('woff'),
+        url(../fonts/Inter-Bold.woff2) format('woff2'),
+        url(../fonts/Inter-Bold.ttf) format('truetype');
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+}
+
+.body {
+    background-color: #2A2C2F;
+    min-width: 320px;
+}
+.page {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    margin: 0 auto;
+    max-width: 1440px;
+    background-color: #2A2C2F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.page__header {
+    margin-top: 30px;
+}
+.page__lead {
+    margin-top: 48px;
+}
+.page__intro {
+    margin-top: 80px;
+}
+.page__photo-grid {
+    margin-top: 102px;
+}
+.page__places {
+    margin-top: 92px;
+}
+.page__place {
+    margin-top: 72px;
+}
+.page__content-title {
+    margin-top: 102px;
+}
+.page__content-subtitle {
+    margin-top: 48px;
+}
+.page__video {
+    margin-top: 72px;
+}
+.page__comments {
+    margin-top: 66px;
+}
+.page__cover {
+    margin-top: 102px;
+}
+.page__footer {
+    margin-top: 160px;
+    margin-bottom: 48px;
+}
+
+@media screen and (max-width: 425px) {
+    .page__header {
+        margin-top: 16px;
+    }
+    .page__intro {
+        margin-top: 64px;
+    }
+    .page__photo-grid {
+        margin-top: 64px;
+    }
+    .page__places {
+        margin-top: 64px;
+    }
+    .page__place {
+        margin-top: 48px;
+    }
+    .page__content-title {
+        margin-top: 64px;
+    }
+    .page__content-subtitle {
+        margin-top: 16xp;
+    } 
+    .page__video {
+        margin-top: 24px;
+    }
+    .page__footer {
+        margin-top: 64px;
+    }
+}
+@media screen and (min-width: 375px) and (max-width: 1023) {
+    .page__photo-grid {
+        margin-top: 97px;
+    }
+}
+@media screen and (min-width: 426px) and (max-width: 1024) {
+    .page__places {
+        margin-top: 102px;
+    }
+}
+@media screen and (min-width: 426px) and (max-width: 1023) {
+    .page__content-subtitle {
+        margin-top: 24px;
+    } 
+    .page__video {
+        margin-top: 56px;
+    }
+    .page__footer {
+        margin-top: 102px;
+    }
+}
+@media screen and (min-width:321px) and (max-width:425px) {
+    .page__comments {
+        margin-top: 42px;
+    }
+    .page__cover{
+        margin-top: 48px;
+    }
+}
+@media screen and (max-width:320px) {
+    .page__comments {
+        margin-top: 34px;
+    }
+    .page__cover{
+        margin-top: 64px;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .page__footer {
+        margin-bottom: 24px;
+    }
+}

@@ -1,0 +1,53 @@
+.place__image {
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.place__image_kosa {
+    background-image: url(../../../images/kosa.jpg);
+}
+.place__image_kolsky {
+    background-image: url(../../../images/kolsky.jpg);
+}
+.place__image_altai {
+    background-image: url(../../../images/altai.jpg);
+}
+.place__image_winter-baikal {
+    background-image: url(../../../images/winter-baikal.jpg);
+}
+.place__image_karelia {
+    background-image: url(../../../images/karelia.jpg);
+}
+.place__image:hover {
+    opacity: 0.5;
+}
+
+@media screen and (min-width: 1025px) {
+    .place__image {
+        margin-top:40px;
+        width: 100%;
+        padding-bottom: 100%;
+    }
+}
+@media screen and (min-width: 426px) and (max-width: 1024px) {
+    .place__image {
+        margin-top:40px;
+    }
+}
+@media screen and (min-width: 426px) and (max-width: 928px) {
+    .place__image {
+        width: 47.2%;
+    }
+}
+@media screen and (min-width: 929px) {
+    .place__image {
+        width: 47%;
+        padding-bottom: 47%;
+    }
+}
+@media screen and (max-width: 425px) {
+    .place__image {
+        margin-top:32px;
+        width: 100%;
+        padding-bottom: 100%;
+    }
+}

@@ -1,0 +1,23 @@
+.comment__image {
+    margin-bottom: 0;
+    width: 97px;
+    height: 97px;
+    border-radius: 48.5px;
+}
+.comment__image:hover {
+    opacity: 0.5;
+}
+
+@media screen and (max-width:320px) {
+    .comment__image {
+        width: 96px;
+        height: 96px;
+        border-radius: 48px;
+    }
+}
+@media screen and (max-width:1023px) {
+    .comment__image {
+        margin: 0 auto;
+        order: 1;
+    }
+}

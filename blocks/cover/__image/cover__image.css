@@ -1,0 +1,30 @@
+.cover__image {
+    width: 100%;
+    opacity: 0.7;
+}
+
+@media screen and (min-width: 1280px) {
+    .cover__image {
+        height: 594px;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .cover__image {
+        height: 562px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .cover__image {
+        height: 500px;
+    }
+}
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .cover__image {
+        height: 272px;
+    }
+}
+@media screen and (max-width: 374px) {
+    .cover__image {
+        height: 216px;
+    }
+}

@@ -1,0 +1,14 @@
+.comments {
+    width: 90%;
+    max-width: 1184px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1023px) {
+    .comments {
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}

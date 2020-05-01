@@ -1,0 +1,33 @@
+.video__info {
+    z-index: 2;
+    position: relative;
+}
+
+@media screen and (max-width: 320px) {
+    .video__info {
+        position: absolute;
+        bottom: 16px;
+        left: 16px;
+    }
+}
+@media screen and (min-width: 321px) and (max-width: 928px){
+    .video__info {
+        position: absolute;
+        bottom: 16px;
+        left: 24px;
+    }
+}
+@media screen and (min-width: 929px) and (max-width: 1024px) {
+    .video__info {
+        position: absolute;
+        bottom: 35px;
+        left: 30px;
+    }
+}
+@media screen and (min-width: 1025px) {
+    .video__info {
+        position: absolute;
+        bottom: 30px;
+        left: 30px;
+    }
+}

@@ -1,0 +1,28 @@
+
+@media screen and (min-width: 426px) {
+    .place__text {
+        width: 48.8%;
+    }
+}
+@media screen and (max-width: 374px) {
+    .place__text {
+        margin-top: 24px;
+        width: 90%;
+    }
+}
+@media screen and (min-width: 375px) and (max-width: 425px) {
+    .place__text {
+        margin-top: 24px;
+        width: 91.4%;
+    }
+}
+@media screen and (min-width: 426px) and (max-width: 768px){
+    .place__text {
+        margin-top: 32px;
+    }
+}
+@media screen and (min-width: 769px) {
+    .place__text {
+        margin-top: 40px;
+    }
+}
